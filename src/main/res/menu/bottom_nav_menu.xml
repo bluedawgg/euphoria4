@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_songs"
+        android:icon="@drawable/ic_audiotrack_black_24dp"
+        android:title="Songs"/>
+
+    <item
+        android:id="@+id/navigation_playlist"
+        android:icon="@drawable/playlists"
+        android:title="Playlists" />
+
+    <item
+        android:id="@+id/navigation_tools"
+        android:icon="@drawable/tools"
+        android:title="Tools"/>
+
+
+</menu>

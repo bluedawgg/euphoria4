@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#121212">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/logo_new_round" />
+
+    <ImageView
+        android:id="@+id/albumart"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="325dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/eup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/icon"
+        android:layout_marginStart="6dp"
+        android:textColor="#FFFFFF"
+        android:text="Euphoria"
+        />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Song Name here"
+        android:singleLine="true"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/icon"
+        />
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        android:text="Song Artist here"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/title"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="180dp">
+
+        <ImageButton
+            android:id="@+id/button4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:src="@drawable/white_button_back"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/white_pause_button"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_toEndOf="@id/button4"
+             />
+
+        <ImageButton
+            android:id="@+id/button3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:src="@drawable/white_button_forward"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/button2"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
